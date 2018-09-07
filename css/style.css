@@ -13,8 +13,8 @@ body{
 /*--------------------header--------------------------*/
 .nav_bar{
   background-color: #fafafa;
-  height: 50px;
-  box-shadow: 0 2px 0 rgba(0,0,0,.3);
+  height: 60px;
+  -box-shadow: 0 2px 0 rgba(0,0,0,.3);
   position: relative;
 
 }
@@ -27,7 +27,6 @@ body{
 }
 .nav_bar li{
   height: 50px;
-	-background: aqua;
 	display: inline;
 	-border-bottom: 1px solid rgba(0,0,0,.1);
 	-position: fixed;
@@ -37,12 +36,16 @@ body{
 }
 li a{
   text-decoration: none;
-  padding-right: 70px;
-  margin-left: 100px;
+  padding-right: 30px;
+  line-height: 50%;
+  font-size: 20px;
+  float: right;
+  margin-top: -49px;
 }
 li a:hover{
 	color: #54d17a;
 	text-decoration: none;
+  background: rgba(0,0,0,.3);
 }
 .video-wrap img{
   width: 100%;
