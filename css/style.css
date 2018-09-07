@@ -12,11 +12,22 @@ body{
 }
 /*--------------------header--------------------------*/
 .nav_bar{
-  background-color: aqua;
+  background-color: #fafafa;
+  height: 50px;
+  box-shadow: 0 2px 0 rgba(0,0,0,.3);
+  position: relative;
+
+}
+.nav_bar h3{
+  font-size: 30px;
+  color: #54d17a;
+  padding:10px;
+  margin-left: 40px;
+
 }
 .nav_bar li{
   height: 50px;
-	background: aqua;
+	-background: aqua;
 	display: inline;
 	-border-bottom: 1px solid rgba(0,0,0,.1);
 	-position: fixed;
